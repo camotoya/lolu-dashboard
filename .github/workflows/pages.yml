@@ -1,0 +1,52 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'
+      - 'data/current/dashboard.json'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build site (copy docs/ + data/current/)
+        run: |
+          mkdir -p site
+          cp -r docs/* site/
+          mkdir -p site/data/current
+          cp -r data/current/*.json site/data/current/ 2>/dev/null || true
+          # Inyectar password hash si está configurado
+          if [ -n "${{ secrets.DASHBOARD_PASSWORD_HASH }}" ]; then
+            sed -i "s|window.LOLU_PW_HASH || ''|'${{ secrets.DASHBOARD_PASSWORD_HASH }}'|g" site/app.js
+          fi
+          # Update relative path for Pages root: app.js fetches data/current/... not ../data/...
+          sed -i "s|'../data/current/dashboard.json'|'./data/current/dashboard.json'|g" site/app.js
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

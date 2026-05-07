@@ -1,0 +1,428 @@
+{
+  "generated_at_utc": "2026-05-07T19:01:56.404613+00:00",
+  "today_bog": "2026-05-07",
+  "totals_by_period": {
+    "day": {
+      "current": {
+        "orders": 1,
+        "revenue": 248000.0,
+        "aov": 248000.0
+      },
+      "prev": {
+        "orders": 3,
+        "revenue": 711000.0,
+        "aov": 237000.0
+      },
+      "granularity_label": "Hoy vs ayer",
+      "current_range": [
+        "2026-05-07",
+        "2026-05-07"
+      ],
+      "prev_range": [
+        "2026-05-06",
+        "2026-05-06"
+      ]
+    },
+    "week": {
+      "current": {
+        "orders": 5,
+        "revenue": 1256000.0,
+        "aov": 251200.0
+      },
+      "prev": {
+        "orders": 4,
+        "revenue": 945000.0,
+        "aov": 236250.0
+      },
+      "granularity_label": "Semana en curso (4d) vs misma porción semana pasada",
+      "current_range": [
+        "2026-05-04",
+        "2026-05-07"
+      ],
+      "prev_range": [
+        "2026-04-27",
+        "2026-04-30"
+      ]
+    },
+    "month": {
+      "current": {
+        "orders": 6,
+        "revenue": 1386000.0,
+        "aov": 231000.0
+      },
+      "prev": {
+        "orders": 5,
+        "revenue": 925000.0,
+        "aov": 185000.0
+      },
+      "granularity_label": "MTD (7d) vs mismos días mes anterior",
+      "current_range": [
+        "2026-05-01",
+        "2026-05-07"
+      ],
+      "prev_range": [
+        "2026-04-01",
+        "2026-04-07"
+      ]
+    }
+  },
+  "timeseries": {
+    "daily_18": [
+      {
+        "date": "2026-04-20",
+        "orders": 0,
+        "revenue": 0
+      },
+      {
+        "date": "2026-04-21",
+        "orders": 1,
+        "revenue": 130000.0
+      },
+      {
+        "date": "2026-04-22",
+        "orders": 0,
+        "revenue": 0
+      },
+      {
+        "date": "2026-04-23",
+        "orders": 2,
+        "revenue": 260000.0
+      },
+      {
+        "date": "2026-04-24",
+        "orders": 0,
+        "revenue": 0
+      },
+      {
+        "date": "2026-04-25",
+        "orders": 0,
+        "revenue": 0
+      },
+      {
+        "date": "2026-04-26",
+        "orders": 1,
+        "revenue": 240000.0
+      },
+      {
+        "date": "2026-04-27",
+        "orders": 0,
+        "revenue": 0
+      },
+      {
+        "date": "2026-04-28",
+        "orders": 1,
+        "revenue": 130000.0
+      },
+      {
+        "date": "2026-04-29",
+        "orders": 3,
+        "revenue": 815000.0
+      },
+      {
+        "date": "2026-04-30",
+        "orders": 0,
+        "revenue": 0
+      },
+      {
+        "date": "2026-05-01",
+        "orders": 1,
+        "revenue": 130000.0
+      },
+      {
+        "date": "2026-05-02",
+        "orders": 0,
+        "revenue": 0
+      },
+      {
+        "date": "2026-05-03",
+        "orders": 0,
+        "revenue": 0
+      },
+      {
+        "date": "2026-05-04",
+        "orders": 0,
+        "revenue": 0
+      },
+      {
+        "date": "2026-05-05",
+        "orders": 1,
+        "revenue": 297000.0
+      },
+      {
+        "date": "2026-05-06",
+        "orders": 3,
+        "revenue": 711000.0
+      },
+      {
+        "date": "2026-05-07",
+        "orders": 1,
+        "revenue": 248000.0
+      }
+    ],
+    "weekly_18": [
+      {
+        "week_start": "2026-01-05",
+        "orders": 4,
+        "revenue": 790000.0
+      },
+      {
+        "week_start": "2026-01-12",
+        "orders": 12,
+        "revenue": 2249800.0
+      },
+      {
+        "week_start": "2026-01-19",
+        "orders": 8,
+        "revenue": 1218900.0
+      },
+      {
+        "week_start": "2026-01-26",
+        "orders": 4,
+        "revenue": 790000.0
+      },
+      {
+        "week_start": "2026-02-02",
+        "orders": 8,
+        "revenue": 1655000.0
+      },
+      {
+        "week_start": "2026-02-09",
+        "orders": 4,
+        "revenue": 705000.0
+      },
+      {
+        "week_start": "2026-02-16",
+        "orders": 3,
+        "revenue": 420000.0
+      },
+      {
+        "week_start": "2026-02-23",
+        "orders": 7,
+        "revenue": 1460000.0
+      },
+      {
+        "week_start": "2026-03-02",
+        "orders": 5,
+        "revenue": 1210000.0
+      },
+      {
+        "week_start": "2026-03-09",
+        "orders": 6,
+        "revenue": 1550000.0
+      },
+      {
+        "week_start": "2026-03-16",
+        "orders": 13,
+        "revenue": 3235000.0
+      },
+      {
+        "week_start": "2026-03-23",
+        "orders": 4,
+        "revenue": 750000.0
+      },
+      {
+        "week_start": "2026-03-30",
+        "orders": 5,
+        "revenue": 1165000.0
+      },
+      {
+        "week_start": "2026-04-06",
+        "orders": 6,
+        "revenue": 1110000.0
+      },
+      {
+        "week_start": "2026-04-13",
+        "orders": 5,
+        "revenue": 740000.0
+      },
+      {
+        "week_start": "2026-04-20",
+        "orders": 4,
+        "revenue": 630000.0
+      },
+      {
+        "week_start": "2026-04-27",
+        "orders": 5,
+        "revenue": 1075000.0
+      },
+      {
+        "week_start": "2026-05-04",
+        "orders": 5,
+        "revenue": 1256000.0
+      }
+    ],
+    "monthly_18": [
+      {
+        "month": "2024-12",
+        "orders": 21,
+        "revenue": 4517680.0
+      },
+      {
+        "month": "2025-01",
+        "orders": 11,
+        "revenue": 1738300.0
+      },
+      {
+        "month": "2025-02",
+        "orders": 14,
+        "revenue": 1698300.0
+      },
+      {
+        "month": "2025-03",
+        "orders": 36,
+        "revenue": 4895510.0
+      },
+      {
+        "month": "2025-04",
+        "orders": 13,
+        "revenue": 2058200.0
+      },
+      {
+        "month": "2025-05",
+        "orders": 4,
+        "revenue": 879300.0
+      },
+      {
+        "month": "2025-06",
+        "orders": 1,
+        "revenue": 109900.0
+      },
+      {
+        "month": "2025-07",
+        "orders": 1,
+        "revenue": 219900.0
+      },
+      {
+        "month": "2025-08",
+        "orders": 16,
+        "revenue": 2768200.0
+      },
+      {
+        "month": "2025-09",
+        "orders": 20,
+        "revenue": 3159500.0
+      },
+      {
+        "month": "2025-10",
+        "orders": 15,
+        "revenue": 2229700.0
+      },
+      {
+        "month": "2025-11",
+        "orders": 16,
+        "revenue": 2639900.0
+      },
+      {
+        "month": "2025-12",
+        "orders": 63,
+        "revenue": 10668300.0
+      },
+      {
+        "month": "2026-01",
+        "orders": 32,
+        "revenue": 5928600.0
+      },
+      {
+        "month": "2026-02",
+        "orders": 19,
+        "revenue": 3640000.0
+      },
+      {
+        "month": "2026-03",
+        "orders": 32,
+        "revenue": 7705000.0
+      },
+      {
+        "month": "2026-04",
+        "orders": 23,
+        "revenue": 4230000.0
+      },
+      {
+        "month": "2026-05",
+        "orders": 6,
+        "revenue": 1386000.0
+      }
+    ]
+  },
+  "breakdown_channel_mtd": [
+    {
+      "key": "meta_paid",
+      "orders": 3,
+      "revenue": 711000.0
+    },
+    {
+      "key": "direct",
+      "orders": 2,
+      "revenue": 545000.0
+    },
+    {
+      "key": "other",
+      "orders": 1,
+      "revenue": 130000.0
+    }
+  ],
+  "breakdown_city_mtd": [
+    {
+      "key": "Bogotá",
+      "orders": 5,
+      "revenue": 1138000.0
+    },
+    {
+      "key": "Manizales",
+      "orders": 1,
+      "revenue": 248000.0
+    }
+  ],
+  "top_products_mtd": [
+    {
+      "title": "Silla · Pusieron Salsa",
+      "qty": 3,
+      "revenue": 360000.0
+    },
+    {
+      "title": "Esencial · Blanca",
+      "qty": 2,
+      "revenue": 220000.0
+    },
+    {
+      "title": "Call Your Friends",
+      "qty": 1,
+      "revenue": 120000.0
+    },
+    {
+      "title": "Pomodoro Tomates",
+      "qty": 1,
+      "revenue": 120000.0
+    },
+    {
+      "title": "Walkman",
+      "qty": 1,
+      "revenue": 120000.0
+    },
+    {
+      "title": "Old Times",
+      "qty": 1,
+      "revenue": 120000.0
+    },
+    {
+      "title": "Camiseta Blanca Silla “Pusieron Salsa…” – LOLU Original 100% Algodón",
+      "qty": 1,
+      "revenue": 120000.0
+    },
+    {
+      "title": "Esencial · Verde",
+      "qty": 1,
+      "revenue": 110000.0
+    },
+    {
+      "title": "Esencial · Negra",
+      "qty": 1,
+      "revenue": 110000.0
+    },
+    {
+      "title": "Empaque de regalo",
+      "qty": 1,
+      "revenue": 8000.0
+    }
+  ]
+}

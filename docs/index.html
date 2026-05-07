@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LOLU · Dashboard</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  /* LOLU paleta canónica de marca */
+  :root {
+    --lolu-hueso: #FAFAF7;
+    --lolu-tinta: #2A2520;
+    --lolu-mandarina: #E26A3A;
+    --lolu-mandarina-dark: #B85320;
+    --lolu-pool: #7DB7C4;
+    --lolu-terracota: #9C4A36;
+    --lolu-denim: #3B5066;
+    --lolu-tinta-soft: #6b5e57;
+    --lolu-tinta-mute: #a89890;
+    --lolu-line: #efe8df;
+    --lolu-line-soft: #f3eee5;
+  }
+  body { font-family: 'Inter', sans-serif; background: var(--lolu-hueso); color: var(--lolu-tinta); }
+  h1, h2, h3 {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-variation-settings: "opsz" 144, "SOFT" 50;
+  }
+  .kpi-card { background: white; border-radius: 12px; padding: 1.25rem; box-shadow: 0 1px 3px rgba(42, 37, 32, 0.06); border: 1px solid var(--lolu-line-soft); }
+  .kpi-label { font-size: 0.7rem; color: var(--lolu-tinta-soft); text-transform: uppercase; letter-spacing: 0.06em; font-weight: 500; }
+  .kpi-value { font-family: 'Fraunces', serif; font-size: 1.875rem; font-weight: 600; line-height: 1.2; margin-top: 0.35rem; color: var(--lolu-tinta); }
+  .kpi-sub { font-size: 0.75rem; color: var(--lolu-tinta-soft); margin-top: 0.35rem; }
+  .kpi-prev { font-size: 0.7rem; color: var(--lolu-tinta-mute); margin-top: 0.15rem; }
+  /* Indicadores de tendencia: rojo/verde estándar (semántica universal,
+     se sale de paleta de marca a propósito porque es un formato indicativo) */
+  .delta-pos { color: #16a34a; font-weight: 600; }
+  .delta-neg { color: #dc2626; font-weight: 600; }
+  .trend-up   { color: #16a34a; }
+  .trend-down { color: #dc2626; }
+  .table-row { border-bottom: 1px solid var(--lolu-line); }
+  /* Pestañas: activa Café tinto / inactiva blanca con borde */
+  .tab-active { background: var(--lolu-tinta); color: var(--lolu-hueso); }
+  .tab-inactive { background: white; color: var(--lolu-tinta); border: 1px solid var(--lolu-line); }
+  .tab-inactive:hover { border-color: var(--lolu-mandarina); color: var(--lolu-mandarina); }
+  /* Badges semánticos con paleta de marca */
+  .badge { display: inline-block; padding: 0.15rem 0.55rem; border-radius: 999px; font-size: 0.65rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; }
+  .badge-good { background: rgba(125, 183, 196, 0.22); color: var(--lolu-denim); }
+  .badge-warn { background: rgba(226, 106, 58, 0.18); color: var(--lolu-mandarina-dark); }
+  .badge-bad { background: rgba(156, 74, 54, 0.18); color: var(--lolu-terracota); }
+  .wordmark { height: 32px; width: auto; }
+  /* Header con fondo Hueso frío puro y borde tinta tenue */
+  .lolu-header { background: var(--lolu-hueso); border-bottom: 1px solid var(--lolu-line); }
+  /* Banner pequeño con eyebrow Mandarina */
+  .eyebrow { color: var(--lolu-mandarina); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; }
+  /* Bars en listas (productos / ciudades) */
+  .bar-track { background: var(--lolu-line-soft); }
+  .bar-fill-mandarina { background: var(--lolu-mandarina); }
+  .bar-fill-pool { background: var(--lolu-pool); }
+  .bar-fill-tinta { background: var(--lolu-tinta); }
+</style>
+</head>
+<body class="min-h-screen">
+
+<!-- Auth gate -->
+<div id="gate" class="fixed inset-0 bg-stone-900 flex items-center justify-center z-50" style="display:none">
+  <div class="bg-white rounded-xl p-8 max-w-md w-full mx-4">
+    <h2 class="text-2xl mb-4">LOLU Dashboard</h2>
+    <p class="text-sm text-stone-600 mb-4">Acceso protegido</p>
+    <input type="password" id="pw-input" class="w-full border border-stone-300 rounded px-3 py-2 mb-3" placeholder="Password" />
+    <button onclick="checkPassword()" class="w-full bg-stone-900 text-white py-2 rounded hover:bg-stone-700">Entrar</button>
+    <div id="pw-err" class="text-xs text-red-600 mt-2" style="display:none">Password incorrecto</div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="lolu-header sticky top-0 z-20">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+    <div class="flex items-center gap-4">
+      <img src="wordmark.png" alt="LOLU" class="wordmark">
+      <span class="text-xs" style="color: var(--lolu-tinta-mute)" id="header-subtitle">cargando...</span>
+    </div>
+    <div class="flex gap-2">
+      <button data-period="day" class="period-btn px-4 py-1.5 rounded text-sm tab-inactive">Día</button>
+      <button data-period="week" class="period-btn px-4 py-1.5 rounded text-sm tab-active">Semana</button>
+      <button data-period="month" class="period-btn px-4 py-1.5 rounded text-sm tab-inactive">Mes</button>
+    </div>
+  </div>
+</header>
+
+<main class="max-w-7xl mx-auto px-6 py-6 space-y-6">
+
+  <!-- Range banner -->
+  <div class="text-sm text-stone-500 italic" id="range-banner">—</div>
+
+  <!-- KPI Top Row (6 cards, 2 rows on tablet, 1 row on desktop) -->
+  <section class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-4">
+    <div class="kpi-card">
+      <div class="kpi-label">Revenue</div>
+      <div class="kpi-value" id="kpi-revenue">—</div>
+      <div class="kpi-sub" id="kpi-revenue-delta">—</div>
+      <div class="kpi-prev" id="kpi-revenue-prev"></div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Pedidos</div>
+      <div class="kpi-value" id="kpi-orders">—</div>
+      <div class="kpi-sub" id="kpi-orders-delta">—</div>
+      <div class="kpi-prev" id="kpi-orders-prev"></div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">AOV</div>
+      <div class="kpi-value" id="kpi-aov">—</div>
+      <div class="kpi-sub" id="kpi-aov-delta">—</div>
+      <div class="kpi-prev" id="kpi-aov-prev"></div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Spend Meta</div>
+      <div class="kpi-value" id="kpi-spend">—</div>
+      <div class="kpi-sub" id="kpi-spend-delta">—</div>
+      <div class="kpi-prev" id="kpi-spend-prev"></div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">ROAS Meta paid</div>
+      <div class="kpi-value" id="kpi-roas">—</div>
+      <div class="kpi-sub" id="kpi-roas-delta">—</div>
+      <div class="kpi-prev" id="kpi-roas-prev"></div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">ROAS blended</div>
+      <div class="kpi-value" id="kpi-roas-bld">—</div>
+      <div class="kpi-sub" id="kpi-roas-bld-delta">—</div>
+      <div class="kpi-prev" id="kpi-roas-bld-prev"></div>
+    </div>
+  </section>
+
+  <!-- Time series -->
+  <section class="kpi-card">
+    <div class="flex items-center justify-between mb-4">
+      <h2 class="text-lg" id="chart-title">Histórico</h2>
+      <div class="flex gap-2 text-xs flex-wrap">
+        <button data-metric="revenue" class="chart-metric-btn px-2 py-1 rounded tab-active">Revenue</button>
+        <button data-metric="orders" class="chart-metric-btn px-2 py-1 rounded tab-inactive">Pedidos</button>
+        <button data-metric="aov" class="chart-metric-btn px-2 py-1 rounded tab-inactive">AOV</button>
+        <button data-metric="spend" class="chart-metric-btn px-2 py-1 rounded tab-inactive">Spend</button>
+        <button data-metric="roas_meta_paid" class="chart-metric-btn px-2 py-1 rounded tab-inactive">ROAS paid</button>
+        <button data-metric="roas_blended" class="chart-metric-btn px-2 py-1 rounded tab-inactive">ROAS blended</button>
+      </div>
+    </div>
+    <div id="ts-chart"></div>
+  </section>
+
+  <!-- Two column: channel + city -->
+  <section class="grid md:grid-cols-2 gap-6">
+    <div class="kpi-card">
+      <h2 class="text-lg mb-4">Pedidos por canal · MTD</h2>
+      <div id="channel-chart"></div>
+      <div class="mt-3 text-xs text-stone-500">Atribuido por UTMs y fbclid del landing.</div>
+    </div>
+    <div class="kpi-card">
+      <h2 class="text-lg mb-4">Top ciudades · MTD</h2>
+      <div id="city-list" class="space-y-2"></div>
+    </div>
+  </section>
+
+  <!-- Top ads + Top products -->
+  <section class="grid md:grid-cols-2 gap-6">
+    <div class="kpi-card">
+      <h2 class="text-lg mb-4">Top ads Meta · MTD</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead class="text-xs uppercase text-stone-500">
+            <tr><th class="text-left py-2">Ad</th><th class="text-right">Spend</th><th class="text-right">ROAS</th><th class="text-right">CPA</th></tr>
+          </thead>
+          <tbody id="top-ads-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="kpi-card">
+      <h2 class="text-lg mb-4">Top productos · MTD</h2>
+      <div id="top-products-list" class="space-y-2"></div>
+    </div>
+  </section>
+
+  <!-- Campaigns -->
+  <section class="kpi-card">
+    <h2 class="text-lg mb-4">Campañas Meta · MTD</h2>
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm">
+        <thead class="text-xs uppercase text-stone-500">
+          <tr>
+            <th class="text-left py-2">Campaña</th>
+            <th class="text-right">Ads</th>
+            <th class="text-right">Spend</th>
+            <th class="text-right">Compras</th>
+            <th class="text-right">ROAS</th>
+            <th class="text-right">CTR</th>
+          </tr>
+        </thead>
+        <tbody id="camps-tbody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Source status -->
+  <section class="kpi-card">
+    <h2 class="text-lg mb-4">Estado de fuentes</h2>
+    <div id="sources-status" class="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm"></div>
+  </section>
+
+</main>
+
+<footer class="text-center text-xs text-stone-400 py-6">
+  Generado <span id="generated-at">—</span> · Auto-actualizado cada hora vía GitHub Actions
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

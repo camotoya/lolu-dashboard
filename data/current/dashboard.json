@@ -1,0 +1,1353 @@
+{
+  "generated_at_utc": "2026-05-07T19:16:42.327191+00:00",
+  "today_bog": "2026-05-07",
+  "kpis": {
+    "day": {
+      "current": {
+        "orders": 1,
+        "revenue": 248000.0,
+        "aov": 248000.0,
+        "spend_meta": 61583.0,
+        "meta_paid_purchases": 1,
+        "meta_paid_revenue": 248000.0,
+        "roas_meta_paid": 4.027085396943962,
+        "cpa_meta_paid": 61583.0,
+        "ctr_meta": 1.801374733349135,
+        "roas_blended": 4.027085396943962,
+        "cpa_blended": 61583.0
+      },
+      "prev": {
+        "orders": 3,
+        "revenue": 711000.0,
+        "aov": 237000.0,
+        "spend_meta": 123552.0,
+        "meta_paid_purchases": 1,
+        "meta_paid_revenue": 248000.0,
+        "roas_meta_paid": 2.0072520072520073,
+        "cpa_meta_paid": 123552.0,
+        "ctr_meta": 1.6422947131608547,
+        "roas_blended": 5.754662004662005,
+        "cpa_blended": 41184.0
+      },
+      "deltas": {
+        "orders": -66.66666666666666,
+        "revenue": -65.11954992967651,
+        "aov": 4.641350210970464,
+        "spend_meta": -50.15620953120953,
+        "roas_blended": -30.02047046930797,
+        "roas_meta_paid": 100.62679635613725,
+        "cpa_meta_paid": -50.15620953120953
+      },
+      "granularity_label": "Hoy vs ayer",
+      "current_range": [
+        "2026-05-07",
+        "2026-05-07"
+      ],
+      "prev_range": [
+        "2026-05-06",
+        "2026-05-06"
+      ]
+    },
+    "week": {
+      "current": {
+        "orders": 5,
+        "revenue": 1256000.0,
+        "aov": 251200.0,
+        "spend_meta": 295819.0,
+        "meta_paid_purchases": 2,
+        "meta_paid_revenue": 496000.0,
+        "roas_meta_paid": 1.6767009556519359,
+        "cpa_meta_paid": 147909.5,
+        "ctr_meta": 1.6868896123113348,
+        "roas_blended": 4.245839516731515,
+        "cpa_blended": 59163.8
+      },
+      "prev": {
+        "orders": 4,
+        "revenue": 945000.0,
+        "aov": 236250.0,
+        "spend_meta": 250226.0,
+        "meta_paid_purchases": 3,
+        "meta_paid_revenue": 815000.0,
+        "roas_meta_paid": 3.257055621717967,
+        "cpa_meta_paid": 83408.66666666667,
+        "ctr_meta": 1.7775709632387158,
+        "roas_blended": 3.776585966286477,
+        "cpa_blended": 62556.5
+      },
+      "deltas": {
+        "orders": 25.0,
+        "revenue": 32.91005291005291,
+        "aov": 6.328042328042328,
+        "spend_meta": 18.22072846147083,
+        "roas_blended": 12.425337451180953,
+        "roas_meta_paid": -48.52096032773481,
+        "cpa_meta_paid": 77.33109269220624
+      },
+      "granularity_label": "Semana en curso (4d) vs misma porción semana pasada",
+      "current_range": [
+        "2026-05-04",
+        "2026-05-07"
+      ],
+      "prev_range": [
+        "2026-04-27",
+        "2026-04-30"
+      ]
+    },
+    "month": {
+      "current": {
+        "orders": 6,
+        "revenue": 1386000.0,
+        "aov": 231000.0,
+        "spend_meta": 408805.0,
+        "meta_paid_purchases": 2,
+        "meta_paid_revenue": 496000.0,
+        "roas_meta_paid": 1.2132924010224924,
+        "cpa_meta_paid": 204402.5,
+        "ctr_meta": 1.8199663488502524,
+        "roas_blended": 3.390369491566884,
+        "cpa_blended": 68134.16666666667
+      },
+      "prev": {
+        "orders": 5,
+        "revenue": 925000.0,
+        "aov": 185000.0,
+        "spend_meta": 769146.0,
+        "meta_paid_purchases": 3,
+        "meta_paid_revenue": 675000.0,
+        "roas_meta_paid": 0.8775967111575695,
+        "cpa_meta_paid": 256382.0,
+        "ctr_meta": 1.6474534711461506,
+        "roas_blended": 1.2026325301048175,
+        "cpa_blended": 153829.2
+      },
+      "deltas": {
+        "orders": 20.0,
+        "revenue": 49.83783783783784,
+        "aov": 24.864864864864867,
+        "spend_meta": -46.84949281410811,
+        "roas_blended": 181.91233869845433,
+        "roas_meta_paid": 38.251703270643844,
+        "cpa_meta_paid": -20.274239221162173
+      },
+      "granularity_label": "MTD (7d) vs mismos días mes anterior",
+      "current_range": [
+        "2026-05-01",
+        "2026-05-07"
+      ],
+      "prev_range": [
+        "2026-04-01",
+        "2026-04-07"
+      ]
+    }
+  },
+  "timeseries": {
+    "daily_18": [
+      {
+        "date": "2026-04-20",
+        "orders": 0,
+        "revenue": 0,
+        "spend": 99190.0,
+        "purchases_meta": 0,
+        "purchase_value_meta": 0.0,
+        "roas_meta_paid": 0.0,
+        "aov": 0,
+        "roas_blended": 0.0
+      },
+      {
+        "date": "2026-04-21",
+        "orders": 1,
+        "revenue": 130000.0,
+        "spend": 130195.0,
+        "purchases_meta": 1,
+        "purchase_value_meta": 130000.0,
+        "roas_meta_paid": 0.9985022466300549,
+        "aov": 130000.0,
+        "roas_blended": 0.9985022466300549
+      },
+      {
+        "date": "2026-04-22",
+        "orders": 0,
+        "revenue": 0,
+        "spend": 112814.0,
+        "purchases_meta": 0,
+        "purchase_value_meta": 0.0,
+        "roas_meta_paid": 0.0,
+        "aov": 0,
+        "roas_blended": 0.0
+      },
+      {
+        "date": "2026-04-23",
+        "orders": 2,
+        "revenue": 260000.0,
+        "spend": 72267.0,
+        "purchases_meta": 0,
+        "purchase_value_meta": 0.0,
+        "roas_meta_paid": 0.0,
+        "aov": 130000.0,
+        "roas_blended": 3.597769382982551
+      },
+      {
+        "date": "2026-04-24",
+        "orders": 0,
+        "revenue": 0,
+        "spend": 80845.0,
+        "purchases_meta": 0,
+        "purchase_value_meta": 0.0,
+        "roas_meta_paid": 0.0,
+        "aov": 0,
+        "roas_blended": 0.0
+      },
+      {
+        "date": "2026-04-25",
+        "orders": 0,
+        "revenue": 0,
+        "spend": 106114.0,
+        "purchases_meta": 0,
+        "purchase_value_meta": 0.0,
+        "roas_meta_paid": 0.0,
+        "aov": 0,
+        "roas_blended": 0.0
+      },
+      {
+        "date": "2026-04-26",
+        "orders": 1,
+        "revenue": 240000.0,
+        "spend": 134544.0,
+        "purchases_meta": 1,
+        "purchase_value_meta": 240000.0,
+        "roas_meta_paid": 1.783803068141277,
+        "aov": 240000.0,
+        "roas_blended": 1.783803068141277
+      },
+      {
+        "date": "2026-04-27",
+        "orders": 0,
+        "revenue": 0,
+        "spend": 77454.0,
+        "purchases_meta": 0,
+        "purchase_value_meta": 0.0,
+        "roas_meta_paid": 0.0,
+        "aov": 0,
+        "roas_blended": 0.0
+      },
+      {
+        "date": "2026-04-28",
+        "orders": 1,
+        "revenue": 130000.0,
+        "spend": 61599.0,
+        "purchases_meta": 1,
+        "purchase_value_meta": 130000.0,
+        "roas_meta_paid": 2.1104238705173786,
+        "aov": 130000.0,
+        "roas_blended": 2.1104238705173786
+      },
+      {
+        "date": "2026-04-29",
+        "orders": 3,
+        "revenue": 815000.0,
+        "spend": 69588.0,
+        "purchases_meta": 2,
+        "purchase_value_meta": 685000.0,
+        "roas_meta_paid": 9.843651204230614,
+        "aov": 271666.6666666667,
+        "roas_blended": 11.711789388975111
+      },
+      {
+        "date": "2026-04-30",
+        "orders": 0,
+        "revenue": 0,
+        "spend": 41585.0,
+        "purchases_meta": 0,
+        "purchase_value_meta": 0.0,
+        "roas_meta_paid": 0.0,
+        "aov": 0,
+        "roas_blended": 0.0
+      },
+      {
+        "date": "2026-05-01",
+        "orders": 1,
+        "revenue": 130000.0,
+        "spend": 87276.0,
+        "purchases_meta": 0,
+        "purchase_value_meta": 0.0,
+        "roas_meta_paid": 0.0,
+        "aov": 130000.0,
+        "roas_blended": 1.4895274760529813
+      },
+      {
+        "date": "2026-05-02",
+        "orders": 0,
+        "revenue": 0,
+        "spend": 25710.0,
+        "purchases_meta": 0,
+        "purchase_value_meta": 0.0,
+        "roas_meta_paid": 0.0,
+        "aov": 0,
+        "roas_blended": 0.0
+      },
+      {
+        "date": "2026-05-03",
+        "orders": 0,
+        "revenue": 0,
+        "spend": 0.0,
+        "purchases_meta": 0,
+        "purchase_value_meta": 0.0,
+        "roas_meta_paid": 0,
+        "aov": 0,
+        "roas_blended": 0
+      },
+      {
+        "date": "2026-05-04",
+        "orders": 0,
+        "revenue": 0,
+        "spend": 61896.0,
+        "purchases_meta": 0,
+        "purchase_value_meta": 0.0,
+        "roas_meta_paid": 0.0,
+        "aov": 0,
+        "roas_blended": 0.0
+      },
+      {
+        "date": "2026-05-05",
+        "orders": 1,
+        "revenue": 297000.0,
+        "spend": 48788.0,
+        "purchases_meta": 0,
+        "purchase_value_meta": 0.0,
+        "roas_meta_paid": 0.0,
+        "aov": 297000.0,
+        "roas_blended": 6.087562515372633
+      },
+      {
+        "date": "2026-05-06",
+        "orders": 3,
+        "revenue": 711000.0,
+        "spend": 123552.0,
+        "purchases_meta": 1,
+        "purchase_value_meta": 248000.0,
+        "roas_meta_paid": 2.0072520072520073,
+        "aov": 237000.0,
+        "roas_blended": 5.754662004662005
+      },
+      {
+        "date": "2026-05-07",
+        "orders": 1,
+        "revenue": 248000.0,
+        "spend": 61583.0,
+        "purchases_meta": 1,
+        "purchase_value_meta": 248000.0,
+        "roas_meta_paid": 4.027085396943962,
+        "aov": 248000.0,
+        "roas_blended": 4.027085396943962
+      }
+    ],
+    "weekly_18": [
+      {
+        "week_start": "2026-01-05",
+        "orders": 4,
+        "revenue": 790000.0,
+        "spend": 373930.0,
+        "purchases_meta": 4,
+        "purchase_value_meta": 790000.0,
+        "roas_meta_paid": 2.1126948894178055,
+        "aov": 197500.0,
+        "roas_blended": 2.1126948894178055
+      },
+      {
+        "week_start": "2026-01-12",
+        "orders": 12,
+        "revenue": 2249800.0,
+        "spend": 540309.0,
+        "purchases_meta": 9,
+        "purchase_value_meta": 1479900.0,
+        "roas_meta_paid": 2.738988245615009,
+        "aov": 187483.33333333334,
+        "roas_blended": 4.16391361239587
+      },
+      {
+        "week_start": "2026-01-19",
+        "orders": 8,
+        "revenue": 1218900.0,
+        "spend": 591314.0,
+        "purchases_meta": 6,
+        "purchase_value_meta": 778900.0,
+        "roas_meta_paid": 1.3172358510030204,
+        "aov": 152362.5,
+        "roas_blended": 2.061341351633819
+      },
+      {
+        "week_start": "2026-01-26",
+        "orders": 4,
+        "revenue": 790000.0,
+        "spend": 582781.0,
+        "purchases_meta": 4,
+        "purchase_value_meta": 790000.0,
+        "roas_meta_paid": 1.3555692447077032,
+        "aov": 197500.0,
+        "roas_blended": 1.3555692447077032
+      },
+      {
+        "week_start": "2026-02-02",
+        "orders": 8,
+        "revenue": 1655000.0,
+        "spend": 520778.0,
+        "purchases_meta": 6,
+        "purchase_value_meta": 1320000.0,
+        "roas_meta_paid": 2.534669283264654,
+        "aov": 206875.0,
+        "roas_blended": 3.177937624093184
+      },
+      {
+        "week_start": "2026-02-09",
+        "orders": 4,
+        "revenue": 705000.0,
+        "spend": 510070.0,
+        "purchases_meta": 3,
+        "purchase_value_meta": 575000.0,
+        "roas_meta_paid": 1.127296253455408,
+        "aov": 176250.0,
+        "roas_blended": 1.3821632324975004
+      },
+      {
+        "week_start": "2026-02-16",
+        "orders": 3,
+        "revenue": 420000.0,
+        "spend": 514809.0,
+        "purchases_meta": 2,
+        "purchase_value_meta": 300000.0,
+        "roas_meta_paid": 0.5827403949814397,
+        "aov": 140000.0,
+        "roas_blended": 0.8158365529740156
+      },
+      {
+        "week_start": "2026-02-23",
+        "orders": 7,
+        "revenue": 1460000.0,
+        "spend": 522285.0,
+        "purchases_meta": 6,
+        "purchase_value_meta": 1220000.0,
+        "roas_meta_paid": 2.335889409039126,
+        "aov": 208571.42857142858,
+        "roas_blended": 2.795408637046823
+      },
+      {
+        "week_start": "2026-03-02",
+        "orders": 5,
+        "revenue": 1210000.0,
+        "spend": 663071.0,
+        "purchases_meta": 4,
+        "purchase_value_meta": 1080000.0,
+        "roas_meta_paid": 1.6287848510943774,
+        "aov": 242000.0,
+        "roas_blended": 1.8248422868742562
+      },
+      {
+        "week_start": "2026-03-09",
+        "orders": 6,
+        "revenue": 1550000.0,
+        "spend": 726298.0,
+        "purchases_meta": 5,
+        "purchase_value_meta": 1310000.0,
+        "roas_meta_paid": 1.8036673651861908,
+        "aov": 258333.33333333334,
+        "roas_blended": 2.1341102412508364
+      },
+      {
+        "week_start": "2026-03-16",
+        "orders": 13,
+        "revenue": 3235000.0,
+        "spend": 803796.0,
+        "purchases_meta": 9,
+        "purchase_value_meta": 2155000.0,
+        "roas_meta_paid": 2.6810285196741463,
+        "aov": 248846.15384615384,
+        "roas_blended": 4.0246530214133935
+      },
+      {
+        "week_start": "2026-03-23",
+        "orders": 4,
+        "revenue": 750000.0,
+        "spend": 778296.0,
+        "purchases_meta": 3,
+        "purchase_value_meta": 390000.0,
+        "roas_meta_paid": 0.5010946991889975,
+        "aov": 187500.0,
+        "roas_blended": 0.9636436522865337
+      },
+      {
+        "week_start": "2026-03-30",
+        "orders": 5,
+        "revenue": 1165000.0,
+        "spend": 775574.0,
+        "purchases_meta": 4,
+        "purchase_value_meta": 915000.0,
+        "roas_meta_paid": 1.1797713693341962,
+        "aov": 233000.0,
+        "roas_blended": 1.5021132735238676
+      },
+      {
+        "week_start": "2026-04-06",
+        "orders": 6,
+        "revenue": 1110000.0,
+        "spend": 772885.0,
+        "purchases_meta": 4,
+        "purchase_value_meta": 860000.0,
+        "roas_meta_paid": 1.1127140518964658,
+        "aov": 185000.0,
+        "roas_blended": 1.436177439075671
+      },
+      {
+        "week_start": "2026-04-13",
+        "orders": 5,
+        "revenue": 740000.0,
+        "spend": 764187.0,
+        "purchases_meta": 5,
+        "purchase_value_meta": 740000.0,
+        "roas_meta_paid": 0.9683493699840484,
+        "aov": 148000.0,
+        "roas_blended": 0.9683493699840484
+      },
+      {
+        "week_start": "2026-04-20",
+        "orders": 4,
+        "revenue": 630000.0,
+        "spend": 735969.0,
+        "purchases_meta": 2,
+        "purchase_value_meta": 370000.0,
+        "roas_meta_paid": 0.502738566434184,
+        "aov": 157500.0,
+        "roas_blended": 0.8560143158203675
+      },
+      {
+        "week_start": "2026-04-27",
+        "orders": 5,
+        "revenue": 1075000.0,
+        "spend": 363212.0,
+        "purchases_meta": 3,
+        "purchase_value_meta": 815000.0,
+        "roas_meta_paid": 2.2438685946499564,
+        "aov": 215000.0,
+        "roas_blended": 2.9597039745382863
+      },
+      {
+        "week_start": "2026-05-04",
+        "orders": 5,
+        "revenue": 1256000.0,
+        "spend": 295819.0,
+        "purchases_meta": 2,
+        "purchase_value_meta": 496000.0,
+        "roas_meta_paid": 1.6767009556519359,
+        "aov": 251200.0,
+        "roas_blended": 4.245839516731515
+      }
+    ],
+    "monthly_18": [
+      {
+        "month": "2024-12",
+        "orders": 21,
+        "revenue": 4517680.0,
+        "spend": 213410.0,
+        "purchases_meta": 3,
+        "purchase_value_meta": 489510.0,
+        "roas_meta_paid": 2.2937538072255284,
+        "aov": 215127.61904761905,
+        "roas_blended": 21.16901738437749
+      },
+      {
+        "month": "2025-01",
+        "orders": 11,
+        "revenue": 1738300.0,
+        "spend": 470268.0,
+        "purchases_meta": 7,
+        "purchase_value_meta": 1039000.0,
+        "roas_meta_paid": 2.2093784820570397,
+        "aov": 158027.27272727274,
+        "roas_blended": 3.69640290217493
+      },
+      {
+        "month": "2025-02",
+        "orders": 14,
+        "revenue": 1698300.0,
+        "spend": 837673.0,
+        "purchases_meta": 9,
+        "purchase_value_meta": 1009020.0,
+        "roas_meta_paid": 1.2045511792787877,
+        "aov": 121307.14285714286,
+        "roas_blended": 2.027402100819771
+      },
+      {
+        "month": "2025-03",
+        "orders": 36,
+        "revenue": 4895510.0,
+        "spend": 3692802.0,
+        "purchases_meta": 27,
+        "purchase_value_meta": 3746610.0,
+        "roas_meta_paid": 1.014571049300775,
+        "aov": 135986.38888888888,
+        "roas_blended": 1.3256898149426912
+      },
+      {
+        "month": "2025-04",
+        "orders": 13,
+        "revenue": 2058200.0,
+        "spend": 909320.0,
+        "purchases_meta": 10,
+        "purchase_value_meta": 1548700.0,
+        "roas_meta_paid": 1.7031408085162538,
+        "aov": 158323.07692307694,
+        "roas_blended": 2.263449610698104
+      },
+      {
+        "month": "2025-05",
+        "orders": 4,
+        "revenue": 879300.0,
+        "spend": 0.0,
+        "purchases_meta": 0,
+        "purchase_value_meta": 0.0,
+        "roas_meta_paid": 0,
+        "aov": 219825.0,
+        "roas_blended": 0
+      },
+      {
+        "month": "2025-06",
+        "orders": 1,
+        "revenue": 109900.0,
+        "spend": 0.0,
+        "purchases_meta": 0,
+        "purchase_value_meta": 0.0,
+        "roas_meta_paid": 0,
+        "aov": 109900.0,
+        "roas_blended": 0
+      },
+      {
+        "month": "2025-07",
+        "orders": 1,
+        "revenue": 219900.0,
+        "spend": 0.0,
+        "purchases_meta": 0,
+        "purchase_value_meta": 0.0,
+        "roas_meta_paid": 0,
+        "aov": 219900.0,
+        "roas_blended": 0
+      },
+      {
+        "month": "2025-08",
+        "orders": 16,
+        "revenue": 2768200.0,
+        "spend": 2230835.0,
+        "purchases_meta": 14,
+        "purchase_value_meta": 2568400.0,
+        "roas_meta_paid": 1.1513177801137242,
+        "aov": 173012.5,
+        "roas_blended": 1.240880656794429
+      },
+      {
+        "month": "2025-09",
+        "orders": 20,
+        "revenue": 3159500.0,
+        "spend": 2858884.0,
+        "purchases_meta": 17,
+        "purchase_value_meta": 2829600.0,
+        "roas_meta_paid": 0.9897568421803753,
+        "aov": 157975.0,
+        "roas_blended": 1.1051515206633078
+      },
+      {
+        "month": "2025-10",
+        "orders": 15,
+        "revenue": 2229700.0,
+        "spend": 4440582.0,
+        "purchases_meta": 13,
+        "purchase_value_meta": 1699800.0,
+        "roas_meta_paid": 0.3827876616173285,
+        "aov": 148646.66666666666,
+        "roas_blended": 0.5021188664008457
+      },
+      {
+        "month": "2025-11",
+        "orders": 16,
+        "revenue": 2639900.0,
+        "spend": 2403111.0,
+        "purchases_meta": 13,
+        "purchase_value_meta": 2279900.0,
+        "roas_meta_paid": 0.9487285439582275,
+        "aov": 164993.75,
+        "roas_blended": 1.0985343581715534
+      },
+      {
+        "month": "2025-12",
+        "orders": 63,
+        "revenue": 10668300.0,
+        "spend": 2365503.0,
+        "purchases_meta": 48,
+        "purchase_value_meta": 8410500.0,
+        "roas_meta_paid": 3.5554805891178325,
+        "aov": 169338.09523809524,
+        "roas_blended": 4.509949892263928
+      },
+      {
+        "month": "2026-01",
+        "orders": 32,
+        "revenue": 5928600.0,
+        "spend": 2207449.0,
+        "purchases_meta": 26,
+        "purchase_value_meta": 4508800.0,
+        "roas_meta_paid": 2.042538695118211,
+        "aov": 185268.75,
+        "roas_blended": 2.6857245626059765
+      },
+      {
+        "month": "2026-02",
+        "orders": 19,
+        "revenue": 3640000.0,
+        "spend": 2072758.0,
+        "purchases_meta": 15,
+        "purchase_value_meta": 3055000.0,
+        "roas_meta_paid": 1.4738816591227726,
+        "aov": 191578.94736842104,
+        "roas_blended": 1.7561143172526652
+      },
+      {
+        "month": "2026-03",
+        "orders": 32,
+        "revenue": 7705000.0,
+        "spend": 3292034.0,
+        "purchases_meta": 24,
+        "purchase_value_meta": 5535000.0,
+        "roas_meta_paid": 1.6813313592751473,
+        "aov": 240781.25,
+        "roas_blended": 2.340498305910571
+      },
+      {
+        "month": "2026-04",
+        "orders": 23,
+        "revenue": 4230000.0,
+        "spend": 3066383.0,
+        "purchases_meta": 17,
+        "purchase_value_meta": 3460000.0,
+        "roas_meta_paid": 1.1283652433502274,
+        "aov": 183913.04347826086,
+        "roas_blended": 1.3794754275640062
+      },
+      {
+        "month": "2026-05",
+        "orders": 6,
+        "revenue": 1386000.0,
+        "spend": 408805.0,
+        "purchases_meta": 2,
+        "purchase_value_meta": 496000.0,
+        "roas_meta_paid": 1.2132924010224924,
+        "aov": 231000.0,
+        "roas_blended": 3.390369491566884
+      }
+    ]
+  },
+  "shopify": {
+    "breakdown_channel_mtd": [
+      {
+        "key": "meta_paid",
+        "orders": 3,
+        "revenue": 711000.0
+      },
+      {
+        "key": "direct",
+        "orders": 2,
+        "revenue": 545000.0
+      },
+      {
+        "key": "other",
+        "orders": 1,
+        "revenue": 130000.0
+      }
+    ],
+    "breakdown_city_mtd": [
+      {
+        "key": "Bogotá",
+        "orders": 5,
+        "revenue": 1138000.0
+      },
+      {
+        "key": "Manizales",
+        "orders": 1,
+        "revenue": 248000.0
+      }
+    ],
+    "top_products_mtd": [
+      {
+        "title": "Silla · Pusieron Salsa",
+        "qty": 3,
+        "revenue": 360000.0
+      },
+      {
+        "title": "Esencial · Blanca",
+        "qty": 2,
+        "revenue": 220000.0
+      },
+      {
+        "title": "Call Your Friends",
+        "qty": 1,
+        "revenue": 120000.0
+      },
+      {
+        "title": "Pomodoro Tomates",
+        "qty": 1,
+        "revenue": 120000.0
+      },
+      {
+        "title": "Walkman",
+        "qty": 1,
+        "revenue": 120000.0
+      },
+      {
+        "title": "Old Times",
+        "qty": 1,
+        "revenue": 120000.0
+      },
+      {
+        "title": "Camiseta Blanca Silla “Pusieron Salsa…” – LOLU Original 100% Algodón",
+        "qty": 1,
+        "revenue": 120000.0
+      },
+      {
+        "title": "Esencial · Verde",
+        "qty": 1,
+        "revenue": 110000.0
+      },
+      {
+        "title": "Esencial · Negra",
+        "qty": 1,
+        "revenue": 110000.0
+      },
+      {
+        "title": "Empaque de regalo",
+        "qty": 1,
+        "revenue": 8000.0
+      }
+    ]
+  },
+  "meta": {
+    "top_ads_mtd": [
+      {
+        "ad_id": "120241999048650528",
+        "ad_name": "20260128 4 Amigos y Diseños",
+        "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+        "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+        "spend": 235184.0,
+        "purchases": 1,
+        "purchase_value": 248000.0,
+        "impressions": 18574,
+        "clicks": 337,
+        "ctr": 1.8143641649617743,
+        "roas": 1.054493502959385,
+        "cpa": 235184.0
+      },
+      {
+        "ad_id": "120243836923030528",
+        "ad_name": "20260310 Sesión Modelo Silla - RTG",
+        "campaign_name": "RTG y LAL con Leo 24-01-2024",
+        "adset_name": "RTGT 24-01-2024",
+        "spend": 58799.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 7693,
+        "clicks": 101,
+        "ctr": 1.312881840634343,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "ad_id": "120247389581860528",
+        "ad_name": "2026-05-06 Pomodoro Mercado Fruta",
+        "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+        "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+        "spend": 16640.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 671,
+        "clicks": 15,
+        "ctr": 2.235469448584203,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "ad_id": "120241626916280528",
+        "ad_name": "202601 Tres modelos de camiseta",
+        "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+        "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+        "spend": 13696.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 1224,
+        "clicks": 29,
+        "ctr": 2.369281045751634,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "ad_id": "120247389483030528",
+        "ad_name": "2026-05-06 Pusieron Salsa Tienda Barrio",
+        "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+        "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+        "spend": 11471.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 561,
+        "clicks": 6,
+        "ctr": 1.06951871657754,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "ad_id": "120242000637890528",
+        "ad_name": "20260128 Camiseta OLDTIMES Baranda",
+        "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+        "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+        "spend": 11194.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 786,
+        "clicks": 10,
+        "ctr": 1.2722646310432568,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "ad_id": "120247389051920528",
+        "ad_name": "2026-05-06 Call Your Friends Banca Finca",
+        "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+        "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+        "spend": 9892.0,
+        "purchases": 1,
+        "purchase_value": 248000.0,
+        "impressions": 596,
+        "clicks": 21,
+        "ctr": 3.523489932885906,
+        "roas": 25.07076425394258,
+        "cpa": 9892.0
+      },
+      {
+        "ad_id": "120243647462470528",
+        "ad_name": "Video de lanzamiento",
+        "campaign_name": "Campaña de Tráfico 05/03/2026",
+        "adset_name": "Conjunto de anuncios de Tráfico con la configuración recomendada - Instagram - Copia",
+        "spend": 6069.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 1261,
+        "clicks": 42,
+        "ctr": 3.330689928628073,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "ad_id": "120239778193060528",
+        "ad_name": "OldTimes -Ejemplo True",
+        "campaign_name": "RTG y LAL con Leo 24-01-2024",
+        "adset_name": "RTGT 24-01-2024",
+        "spend": 5706.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 620,
+        "clicks": 8,
+        "ctr": 1.2903225806451613,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "ad_id": "120242611342480528",
+        "ad_name": "20260212 2 Amigos Matiz y Otoya - RTG",
+        "campaign_name": "RTG y LAL con Leo 24-01-2024",
+        "adset_name": "RTGT 24-01-2024",
+        "spend": 4579.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 574,
+        "clicks": 11,
+        "ctr": 1.9163763066202089,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "ad_id": "120247389716740528",
+        "ad_name": "2026-05-06 Less Talk More Action Cafe Monsteras",
+        "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+        "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+        "spend": 4181.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 182,
+        "clicks": 3,
+        "ctr": 1.6483516483516485,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "ad_id": "120243646538760528",
+        "ad_name": "Video lanzamiento marca - Con música",
+        "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+        "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+        "spend": 4150.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 223,
+        "clicks": 1,
+        "ctr": 0.4484304932735426,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "ad_id": "120243836528890528",
+        "ad_name": "20260310 Sesión Modelo Silla",
+        "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+        "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+        "spend": 4094.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 307,
+        "clicks": 13,
+        "ctr": 4.234527687296417,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "ad_id": "120243647530010528",
+        "ad_name": "Video de lanzamiento",
+        "campaign_name": "Campaña de Tráfico 05/03/2026",
+        "adset_name": "Conjunto de anuncios de Tráfico (A audiencia de ThruPlay)",
+        "spend": 4049.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 1027,
+        "clicks": 28,
+        "ctr": 2.726387536514119,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "ad_id": "120242157608200528",
+        "ad_name": "20260202 Secuencia OLDTIMES Fotos Juliana - RTG",
+        "campaign_name": "RTG y LAL con Leo 24-01-2024",
+        "adset_name": "RTGT 24-01-2024",
+        "spend": 3542.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 356,
+        "clicks": 8,
+        "ctr": 2.247191011235955,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "ad_id": "120242078001290528",
+        "ad_name": "20260130 4 Amigos y Diseños - RTG",
+        "campaign_name": "RTG y LAL con Leo 24-01-2024",
+        "adset_name": "RTGT 24-01-2024",
+        "spend": 3161.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 319,
+        "clicks": 3,
+        "ctr": 0.9404388714733543,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "ad_id": "120247389828890528",
+        "ad_name": "2026-05-06 Mixed Feelings Cocina Harina",
+        "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+        "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+        "spend": 2996.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 123,
+        "clicks": 2,
+        "ctr": 1.6260162601626018,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "ad_id": "120247468348520528",
+        "ad_name": "2026-05-07 Call Your Friends Banca Eje Cafetero",
+        "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+        "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+        "spend": 2141.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 69,
+        "clicks": 0,
+        "ctr": 0.0,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "ad_id": "120247469041950528",
+        "ad_name": "2026-05-07 Subale a ese Temazo Sala Tornamesa",
+        "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+        "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+        "spend": 1846.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 67,
+        "clicks": 1,
+        "ctr": 1.4925373134328357,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "ad_id": "120224683822820528",
+        "ad_name": "Video Reel Camilo con camisetas",
+        "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+        "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+        "spend": 1530.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 45,
+        "clicks": 2,
+        "ctr": 4.444444444444445,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "ad_id": "120243646791410528",
+        "ad_name": "20260305 - Video Sesión de Fotos",
+        "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+        "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+        "spend": 1169.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 97,
+        "clicks": 0,
+        "ctr": 0.0,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "ad_id": "120242611291350528",
+        "ad_name": "20260212 2 Amigos Matiz y Otoya",
+        "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+        "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+        "spend": 1158.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 80,
+        "clicks": 1,
+        "ctr": 1.25,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "ad_id": "120247469457190528",
+        "ad_name": "2026-05-06 Pusieron Salsa Tienda Barrio - RTG",
+        "campaign_name": "RTG y LAL con Leo 24-01-2024",
+        "adset_name": "RTGT 24-01-2024",
+        "spend": 734.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 106,
+        "clicks": 5,
+        "ctr": 4.716981132075472,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "ad_id": "120242157336830528",
+        "ad_name": "20260202 Secuencia OLDTIMES Fotos Juliana",
+        "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+        "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+        "spend": 355.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 25,
+        "clicks": 1,
+        "ctr": 4.0,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "ad_id": "120247469194210528",
+        "ad_name": "2026-05-07 Subale a ese Temazo Sala Tornamesa - RTG",
+        "campaign_name": "RTG y LAL con Leo 24-01-2024",
+        "adset_name": "RTGT 24-01-2024",
+        "spend": 163.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 22,
+        "clicks": 0,
+        "ctr": 0.0,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "ad_id": "120247469454280528",
+        "ad_name": "2026-05-06 Pomodoro Mercado Fruta - RTG",
+        "campaign_name": "RTG y LAL con Leo 24-01-2024",
+        "adset_name": "RTGT 24-01-2024",
+        "spend": 102.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 11,
+        "clicks": 0,
+        "ctr": 0.0,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "ad_id": "120247469452720528",
+        "ad_name": "2026-05-06 Call Your Friends Banca Finca - RTG",
+        "campaign_name": "RTG y LAL con Leo 24-01-2024",
+        "adset_name": "RTGT 24-01-2024",
+        "spend": 53.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 14,
+        "clicks": 0,
+        "ctr": 0.0,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "ad_id": "120247469455580528",
+        "ad_name": "2026-05-06 Mixed Feelings Cocina Harina - RTG",
+        "campaign_name": "RTG y LAL con Leo 24-01-2024",
+        "adset_name": "RTGT 24-01-2024",
+        "spend": 53.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 13,
+        "clicks": 0,
+        "ctr": 0.0,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "ad_id": "120247469453430528",
+        "ad_name": "2026-05-06 Less Talk More Action Cafe Monsteras - RTG",
+        "campaign_name": "RTG y LAL con Leo 24-01-2024",
+        "adset_name": "RTGT 24-01-2024",
+        "spend": 39.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 7,
+        "clicks": 0,
+        "ctr": 0.0,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "ad_id": "120247469194970528",
+        "ad_name": "2026-05-07 Call Your Friends Banca Eje Cafetero - RTG",
+        "campaign_name": "RTG y LAL con Leo 24-01-2024",
+        "adset_name": "RTGT 24-01-2024",
+        "spend": 29.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 2,
+        "clicks": 0,
+        "ctr": 0.0,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "ad_id": "120243638333980528",
+        "ad_name": "20260305 Nacho Camiseta Silla",
+        "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+        "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+        "spend": 13.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "ad_id": "120243647462490528",
+        "ad_name": "Anuncio de Tráfico con la configuración recomendada",
+        "campaign_name": "Campaña de Tráfico 05/03/2026",
+        "adset_name": "Conjunto de anuncios de Tráfico con la configuración recomendada - Instagram - Copia",
+        "spend": 12.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 2,
+        "clicks": 0,
+        "ctr": 0.0,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "ad_id": "120243647529990528",
+        "ad_name": "Anuncio de Tráfico con la configuración recomendada",
+        "campaign_name": "Campaña de Tráfico 05/03/2026",
+        "adset_name": "Conjunto de anuncios de Tráfico (A audiencia de ThruPlay)",
+        "spend": 5.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "ad_id": "120215751404130528",
+        "ad_name": "Nuevo anuncio de Ventas",
+        "campaign_name": "RTG y LAL con Leo 24-01-2024",
+        "adset_name": "RTGT 24-01-2024",
+        "spend": 0.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 0,
+        "clicks": 0,
+        "ctr": 0,
+        "roas": 0,
+        "cpa": 0
+      }
+    ],
+    "campaigns_mtd": [
+      {
+        "campaign": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+        "spend": 321710.0,
+        "purchases": 2,
+        "purchase_value": 496000.0,
+        "impressions": 23631,
+        "clicks": 442,
+        "ads_count": 17,
+        "ctr": 1.8704244424696375,
+        "roas": 1.5417612135152778,
+        "cpa": 160855.0
+      },
+      {
+        "campaign": "RTG y LAL con Leo 24-01-2024",
+        "spend": 76960.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 9737,
+        "clicks": 136,
+        "ads_count": 13,
+        "ctr": 1.3967341070144808,
+        "roas": 0.0,
+        "cpa": 0
+      },
+      {
+        "campaign": "Campaña de Tráfico 05/03/2026",
+        "spend": 10135.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 2292,
+        "clicks": 71,
+        "ads_count": 4,
+        "ctr": 3.0977312390924956,
+        "roas": 0.0,
+        "cpa": 0
+      }
+    ]
+  },
+  "sources_status": {
+    "shopify": "ok",
+    "meta": "ok",
+    "ga4": "pending_setup",
+    "gsc": "pending_setup"
+  }
+}

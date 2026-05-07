@@ -1,0 +1,65 @@
+{
+  "day": {
+    "current": {
+      "orders": 1,
+      "revenue": 248000.0,
+      "aov": 248000.0
+    },
+    "prev": {
+      "orders": 3,
+      "revenue": 711000.0,
+      "aov": 237000.0
+    },
+    "granularity_label": "Hoy vs ayer",
+    "current_range": [
+      "2026-05-07",
+      "2026-05-07"
+    ],
+    "prev_range": [
+      "2026-05-06",
+      "2026-05-06"
+    ]
+  },
+  "week": {
+    "current": {
+      "orders": 5,
+      "revenue": 1256000.0,
+      "aov": 251200.0
+    },
+    "prev": {
+      "orders": 4,
+      "revenue": 945000.0,
+      "aov": 236250.0
+    },
+    "granularity_label": "Semana en curso (4d) vs misma porción semana pasada",
+    "current_range": [
+      "2026-05-04",
+      "2026-05-07"
+    ],
+    "prev_range": [
+      "2026-04-27",
+      "2026-04-30"
+    ]
+  },
+  "month": {
+    "current": {
+      "orders": 6,
+      "revenue": 1386000.0,
+      "aov": 231000.0
+    },
+    "prev": {
+      "orders": 5,
+      "revenue": 925000.0,
+      "aov": 185000.0
+    },
+    "granularity_label": "MTD (7d) vs mismos días mes anterior",
+    "current_range": [
+      "2026-05-01",
+      "2026-05-07"
+    ],
+    "prev_range": [
+      "2026-04-01",
+      "2026-04-07"
+    ]
+  }
+}

@@ -1,0 +1,1109 @@
+{
+  "generated_at_utc": "2026-05-07T19:02:21.255409+00:00",
+  "today_bog": "2026-05-07",
+  "totals_by_period": {
+    "day": {
+      "current": {
+        "spend": 61583.0,
+        "purchases": 1,
+        "purchase_value": 248000.0,
+        "impressions": 4219,
+        "clicks": 76,
+        "ctr": 1.801374733349135,
+        "roas": 4.027085396943962,
+        "cpa": 61583.0
+      },
+      "prev": {
+        "spend": 123552.0,
+        "purchases": 1,
+        "purchase_value": 248000.0,
+        "impressions": 8890,
+        "clicks": 146,
+        "ctr": 1.6422947131608547,
+        "roas": 2.0072520072520073,
+        "cpa": 123552.0
+      },
+      "granularity_label": "Hoy vs ayer",
+      "current_range": [
+        "2026-05-07",
+        "2026-05-07"
+      ],
+      "prev_range": [
+        "2026-05-06",
+        "2026-05-06"
+      ]
+    },
+    "week": {
+      "current": {
+        "spend": 295819.0,
+        "purchases": 2,
+        "purchase_value": 496000.0,
+        "impressions": 23653,
+        "clicks": 399,
+        "ctr": 1.6868896123113348,
+        "roas": 1.6767009556519359,
+        "cpa": 147909.5
+      },
+      "prev": {
+        "spend": 250226.0,
+        "purchases": 3,
+        "purchase_value": 815000.0,
+        "impressions": 32235,
+        "clicks": 573,
+        "ctr": 1.7775709632387158,
+        "roas": 3.257055621717967,
+        "cpa": 83408.66666666667
+      },
+      "granularity_label": "Semana en curso (4d) vs misma porción semana pasada",
+      "current_range": [
+        "2026-05-04",
+        "2026-05-07"
+      ],
+      "prev_range": [
+        "2026-04-27",
+        "2026-04-30"
+      ]
+    },
+    "month": {
+      "current": {
+        "spend": 408805.0,
+        "purchases": 2,
+        "purchase_value": 496000.0,
+        "impressions": 35660,
+        "clicks": 649,
+        "ctr": 1.8199663488502524,
+        "roas": 1.2132924010224924,
+        "cpa": 204402.5
+      },
+      "prev": {
+        "spend": 769146.0,
+        "purchases": 3,
+        "purchase_value": 675000.0,
+        "impressions": 117454,
+        "clicks": 1935,
+        "ctr": 1.6474534711461506,
+        "roas": 0.8775967111575695,
+        "cpa": 256382.0
+      },
+      "granularity_label": "MTD (7d) vs mismos días mes anterior",
+      "current_range": [
+        "2026-05-01",
+        "2026-05-07"
+      ],
+      "prev_range": [
+        "2026-04-01",
+        "2026-04-07"
+      ]
+    }
+  },
+  "timeseries": {
+    "daily_18": [
+      {
+        "date": "2026-04-20",
+        "spend": 99190.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 20467,
+        "clicks": 306,
+        "roas": 0.0
+      },
+      {
+        "date": "2026-04-21",
+        "spend": 130195.0,
+        "purchases": 1,
+        "purchase_value": 130000.0,
+        "impressions": 23069,
+        "clicks": 331,
+        "roas": 0.9985022466300549
+      },
+      {
+        "date": "2026-04-22",
+        "spend": 112814.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 19274,
+        "clicks": 281,
+        "roas": 0.0
+      },
+      {
+        "date": "2026-04-23",
+        "spend": 72267.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 8739,
+        "clicks": 152,
+        "roas": 0.0
+      },
+      {
+        "date": "2026-04-24",
+        "spend": 80845.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 9694,
+        "clicks": 148,
+        "roas": 0.0
+      },
+      {
+        "date": "2026-04-25",
+        "spend": 106114.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 12572,
+        "clicks": 227,
+        "roas": 0.0
+      },
+      {
+        "date": "2026-04-26",
+        "spend": 134544.0,
+        "purchases": 1,
+        "purchase_value": 240000.0,
+        "impressions": 16967,
+        "clicks": 254,
+        "roas": 1.783803068141277
+      },
+      {
+        "date": "2026-04-27",
+        "spend": 77454.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 9305,
+        "clicks": 202,
+        "roas": 0.0
+      },
+      {
+        "date": "2026-04-28",
+        "spend": 61599.0,
+        "purchases": 1,
+        "purchase_value": 130000.0,
+        "impressions": 7772,
+        "clicks": 121,
+        "roas": 2.1104238705173786
+      },
+      {
+        "date": "2026-04-29",
+        "spend": 69588.0,
+        "purchases": 2,
+        "purchase_value": 685000.0,
+        "impressions": 9674,
+        "clicks": 141,
+        "roas": 9.843651204230614
+      },
+      {
+        "date": "2026-04-30",
+        "spend": 41585.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 5484,
+        "clicks": 109,
+        "roas": 0.0
+      },
+      {
+        "date": "2026-05-01",
+        "spend": 87276.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 9860,
+        "clicks": 205,
+        "roas": 0.0
+      },
+      {
+        "date": "2026-05-02",
+        "spend": 25710.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 2147,
+        "clicks": 45,
+        "roas": 0.0
+      },
+      {
+        "date": "2026-05-03",
+        "spend": 0.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 0,
+        "clicks": 0,
+        "roas": 0
+      },
+      {
+        "date": "2026-05-04",
+        "spend": 61896.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 5922,
+        "clicks": 100,
+        "roas": 0.0
+      },
+      {
+        "date": "2026-05-05",
+        "spend": 48788.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 4622,
+        "clicks": 77,
+        "roas": 0.0
+      },
+      {
+        "date": "2026-05-06",
+        "spend": 123552.0,
+        "purchases": 1,
+        "purchase_value": 248000.0,
+        "impressions": 8890,
+        "clicks": 146,
+        "roas": 2.0072520072520073
+      },
+      {
+        "date": "2026-05-07",
+        "spend": 61583.0,
+        "purchases": 1,
+        "purchase_value": 248000.0,
+        "impressions": 4219,
+        "clicks": 76,
+        "roas": 4.027085396943962
+      }
+    ],
+    "weekly_18": [
+      {
+        "week_start": "2026-01-05",
+        "spend": 373930.0,
+        "purchases": 4,
+        "purchase_value": 790000.0,
+        "impressions": 62237,
+        "clicks": 4056,
+        "roas": 2.1126948894178055
+      },
+      {
+        "week_start": "2026-01-12",
+        "spend": 540309.0,
+        "purchases": 9,
+        "purchase_value": 1479900.0,
+        "impressions": 94211,
+        "clicks": 6286,
+        "roas": 2.738988245615009
+      },
+      {
+        "week_start": "2026-01-19",
+        "spend": 591314.0,
+        "purchases": 6,
+        "purchase_value": 778900.0,
+        "impressions": 94440,
+        "clicks": 6951,
+        "roas": 1.3172358510030204
+      },
+      {
+        "week_start": "2026-01-26",
+        "spend": 582781.0,
+        "purchases": 4,
+        "purchase_value": 790000.0,
+        "impressions": 96100,
+        "clicks": 7012,
+        "roas": 1.3555692447077032
+      },
+      {
+        "week_start": "2026-02-02",
+        "spend": 520778.0,
+        "purchases": 6,
+        "purchase_value": 1320000.0,
+        "impressions": 81140,
+        "clicks": 4962,
+        "roas": 2.534669283264654
+      },
+      {
+        "week_start": "2026-02-09",
+        "spend": 510070.0,
+        "purchases": 3,
+        "purchase_value": 575000.0,
+        "impressions": 68077,
+        "clicks": 2729,
+        "roas": 1.127296253455408
+      },
+      {
+        "week_start": "2026-02-16",
+        "spend": 514809.0,
+        "purchases": 2,
+        "purchase_value": 300000.0,
+        "impressions": 72996,
+        "clicks": 1830,
+        "roas": 0.5827403949814397
+      },
+      {
+        "week_start": "2026-02-23",
+        "spend": 522285.0,
+        "purchases": 6,
+        "purchase_value": 1220000.0,
+        "impressions": 73505,
+        "clicks": 1631,
+        "roas": 2.335889409039126
+      },
+      {
+        "week_start": "2026-03-02",
+        "spend": 663071.0,
+        "purchases": 4,
+        "purchase_value": 1080000.0,
+        "impressions": 95920,
+        "clicks": 1755,
+        "roas": 1.6287848510943774
+      },
+      {
+        "week_start": "2026-03-09",
+        "spend": 726298.0,
+        "purchases": 5,
+        "purchase_value": 1310000.0,
+        "impressions": 102051,
+        "clicks": 1466,
+        "roas": 1.8036673651861908
+      },
+      {
+        "week_start": "2026-03-16",
+        "spend": 803796.0,
+        "purchases": 9,
+        "purchase_value": 2155000.0,
+        "impressions": 104221,
+        "clicks": 1767,
+        "roas": 2.6810285196741463
+      },
+      {
+        "week_start": "2026-03-23",
+        "spend": 778296.0,
+        "purchases": 3,
+        "purchase_value": 390000.0,
+        "impressions": 107202,
+        "clicks": 1824,
+        "roas": 0.5010946991889975
+      },
+      {
+        "week_start": "2026-03-30",
+        "spend": 775574.0,
+        "purchases": 4,
+        "purchase_value": 915000.0,
+        "impressions": 112157,
+        "clicks": 1943,
+        "roas": 1.1797713693341962
+      },
+      {
+        "week_start": "2026-04-06",
+        "spend": 772885.0,
+        "purchases": 4,
+        "purchase_value": 860000.0,
+        "impressions": 99680,
+        "clicks": 1565,
+        "roas": 1.1127140518964658
+      },
+      {
+        "week_start": "2026-04-13",
+        "spend": 764187.0,
+        "purchases": 5,
+        "purchase_value": 740000.0,
+        "impressions": 96766,
+        "clicks": 1643,
+        "roas": 0.9683493699840484
+      },
+      {
+        "week_start": "2026-04-20",
+        "spend": 735969.0,
+        "purchases": 2,
+        "purchase_value": 370000.0,
+        "impressions": 110782,
+        "clicks": 1699,
+        "roas": 0.502738566434184
+      },
+      {
+        "week_start": "2026-04-27",
+        "spend": 363212.0,
+        "purchases": 3,
+        "purchase_value": 815000.0,
+        "impressions": 44242,
+        "clicks": 823,
+        "roas": 2.2438685946499564
+      },
+      {
+        "week_start": "2026-05-04",
+        "spend": 295819.0,
+        "purchases": 2,
+        "purchase_value": 496000.0,
+        "impressions": 23653,
+        "clicks": 399,
+        "roas": 1.6767009556519359
+      }
+    ],
+    "monthly_18": [
+      {
+        "month": "2024-12",
+        "spend": 213410.0,
+        "purchases": 3,
+        "purchase_value": 489510.0,
+        "impressions": 45101,
+        "clicks": 1047,
+        "roas": 2.2937538072255284
+      },
+      {
+        "month": "2025-01",
+        "spend": 470268.0,
+        "purchases": 7,
+        "purchase_value": 1039000.0,
+        "impressions": 60999,
+        "clicks": 1145,
+        "roas": 2.2093784820570397
+      },
+      {
+        "month": "2025-02",
+        "spend": 837673.0,
+        "purchases": 9,
+        "purchase_value": 1009020.0,
+        "impressions": 171007,
+        "clicks": 2015,
+        "roas": 1.2045511792787877
+      },
+      {
+        "month": "2025-03",
+        "spend": 3692802.0,
+        "purchases": 27,
+        "purchase_value": 3746610.0,
+        "impressions": 470792,
+        "clicks": 10014,
+        "roas": 1.014571049300775
+      },
+      {
+        "month": "2025-04",
+        "spend": 909320.0,
+        "purchases": 10,
+        "purchase_value": 1548700.0,
+        "impressions": 108606,
+        "clicks": 2010,
+        "roas": 1.7031408085162538
+      },
+      {
+        "month": "2025-05",
+        "spend": 0.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 0,
+        "clicks": 0,
+        "roas": 0
+      },
+      {
+        "month": "2025-06",
+        "spend": 0.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 0,
+        "clicks": 0,
+        "roas": 0
+      },
+      {
+        "month": "2025-07",
+        "spend": 0.0,
+        "purchases": 0,
+        "purchase_value": 0.0,
+        "impressions": 0,
+        "clicks": 0,
+        "roas": 0
+      },
+      {
+        "month": "2025-08",
+        "spend": 2230835.0,
+        "purchases": 14,
+        "purchase_value": 2568400.0,
+        "impressions": 205106,
+        "clicks": 4498,
+        "roas": 1.1513177801137242
+      },
+      {
+        "month": "2025-09",
+        "spend": 2858884.0,
+        "purchases": 17,
+        "purchase_value": 2829600.0,
+        "impressions": 264514,
+        "clicks": 4465,
+        "roas": 0.9897568421803753
+      },
+      {
+        "month": "2025-10",
+        "spend": 4440582.0,
+        "purchases": 13,
+        "purchase_value": 1699800.0,
+        "impressions": 521666,
+        "clicks": 5335,
+        "roas": 0.3827876616173285
+      },
+      {
+        "month": "2025-11",
+        "spend": 2403111.0,
+        "purchases": 13,
+        "purchase_value": 2279900.0,
+        "impressions": 274888,
+        "clicks": 2742,
+        "roas": 0.9487285439582275
+      },
+      {
+        "month": "2025-12",
+        "spend": 2365503.0,
+        "purchases": 48,
+        "purchase_value": 8410500.0,
+        "impressions": 315272,
+        "clicks": 23134,
+        "roas": 3.5554805891178325
+      },
+      {
+        "month": "2026-01",
+        "spend": 2207449.0,
+        "purchases": 26,
+        "purchase_value": 4508800.0,
+        "impressions": 371618,
+        "clicks": 24800,
+        "roas": 2.042538695118211
+      },
+      {
+        "month": "2026-02",
+        "spend": 2072758.0,
+        "purchases": 15,
+        "purchase_value": 3055000.0,
+        "impressions": 299669,
+        "clicks": 11968,
+        "roas": 1.4738816591227726
+      },
+      {
+        "month": "2026-03",
+        "spend": 3292034.0,
+        "purchases": 24,
+        "purchase_value": 5535000.0,
+        "impressions": 451427,
+        "clicks": 7575,
+        "roas": 1.6813313592751473
+      },
+      {
+        "month": "2026-04",
+        "spend": 3066383.0,
+        "purchases": 17,
+        "purchase_value": 3460000.0,
+        "impressions": 422615,
+        "clicks": 6943,
+        "roas": 1.1283652433502274
+      },
+      {
+        "month": "2026-05",
+        "spend": 408805.0,
+        "purchases": 2,
+        "purchase_value": 496000.0,
+        "impressions": 35660,
+        "clicks": 649,
+        "roas": 1.2132924010224924
+      }
+    ]
+  },
+  "top_ads_mtd": [
+    {
+      "ad_id": "120241999048650528",
+      "ad_name": "20260128 4 Amigos y Diseños",
+      "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+      "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+      "spend": 235184.0,
+      "purchases": 1,
+      "purchase_value": 248000.0,
+      "impressions": 18574,
+      "clicks": 337,
+      "ctr": 1.8143641649617743,
+      "roas": 1.054493502959385,
+      "cpa": 235184.0
+    },
+    {
+      "ad_id": "120243836923030528",
+      "ad_name": "20260310 Sesión Modelo Silla - RTG",
+      "campaign_name": "RTG y LAL con Leo 24-01-2024",
+      "adset_name": "RTGT 24-01-2024",
+      "spend": 58799.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 7693,
+      "clicks": 101,
+      "ctr": 1.312881840634343,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "ad_id": "120247389581860528",
+      "ad_name": "2026-05-06 Pomodoro Mercado Fruta",
+      "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+      "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+      "spend": 16640.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 671,
+      "clicks": 15,
+      "ctr": 2.235469448584203,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "ad_id": "120241626916280528",
+      "ad_name": "202601 Tres modelos de camiseta",
+      "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+      "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+      "spend": 13696.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 1224,
+      "clicks": 29,
+      "ctr": 2.369281045751634,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "ad_id": "120247389483030528",
+      "ad_name": "2026-05-06 Pusieron Salsa Tienda Barrio",
+      "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+      "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+      "spend": 11471.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 561,
+      "clicks": 6,
+      "ctr": 1.06951871657754,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "ad_id": "120242000637890528",
+      "ad_name": "20260128 Camiseta OLDTIMES Baranda",
+      "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+      "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+      "spend": 11194.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 786,
+      "clicks": 10,
+      "ctr": 1.2722646310432568,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "ad_id": "120247389051920528",
+      "ad_name": "2026-05-06 Call Your Friends Banca Finca",
+      "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+      "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+      "spend": 9892.0,
+      "purchases": 1,
+      "purchase_value": 248000.0,
+      "impressions": 596,
+      "clicks": 21,
+      "ctr": 3.523489932885906,
+      "roas": 25.07076425394258,
+      "cpa": 9892.0
+    },
+    {
+      "ad_id": "120243647462470528",
+      "ad_name": "Video de lanzamiento",
+      "campaign_name": "Campaña de Tráfico 05/03/2026",
+      "adset_name": "Conjunto de anuncios de Tráfico con la configuración recomendada - Instagram - Copia",
+      "spend": 6069.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 1261,
+      "clicks": 42,
+      "ctr": 3.330689928628073,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "ad_id": "120239778193060528",
+      "ad_name": "OldTimes -Ejemplo True",
+      "campaign_name": "RTG y LAL con Leo 24-01-2024",
+      "adset_name": "RTGT 24-01-2024",
+      "spend": 5706.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 620,
+      "clicks": 8,
+      "ctr": 1.2903225806451613,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "ad_id": "120242611342480528",
+      "ad_name": "20260212 2 Amigos Matiz y Otoya - RTG",
+      "campaign_name": "RTG y LAL con Leo 24-01-2024",
+      "adset_name": "RTGT 24-01-2024",
+      "spend": 4579.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 574,
+      "clicks": 11,
+      "ctr": 1.9163763066202089,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "ad_id": "120247389716740528",
+      "ad_name": "2026-05-06 Less Talk More Action Cafe Monsteras",
+      "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+      "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+      "spend": 4181.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 182,
+      "clicks": 3,
+      "ctr": 1.6483516483516485,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "ad_id": "120243646538760528",
+      "ad_name": "Video lanzamiento marca - Con música",
+      "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+      "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+      "spend": 4150.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 223,
+      "clicks": 1,
+      "ctr": 0.4484304932735426,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "ad_id": "120243836528890528",
+      "ad_name": "20260310 Sesión Modelo Silla",
+      "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+      "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+      "spend": 4094.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 307,
+      "clicks": 13,
+      "ctr": 4.234527687296417,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "ad_id": "120243647530010528",
+      "ad_name": "Video de lanzamiento",
+      "campaign_name": "Campaña de Tráfico 05/03/2026",
+      "adset_name": "Conjunto de anuncios de Tráfico (A audiencia de ThruPlay)",
+      "spend": 4049.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 1027,
+      "clicks": 28,
+      "ctr": 2.726387536514119,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "ad_id": "120242157608200528",
+      "ad_name": "20260202 Secuencia OLDTIMES Fotos Juliana - RTG",
+      "campaign_name": "RTG y LAL con Leo 24-01-2024",
+      "adset_name": "RTGT 24-01-2024",
+      "spend": 3542.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 356,
+      "clicks": 8,
+      "ctr": 2.247191011235955,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "ad_id": "120242078001290528",
+      "ad_name": "20260130 4 Amigos y Diseños - RTG",
+      "campaign_name": "RTG y LAL con Leo 24-01-2024",
+      "adset_name": "RTGT 24-01-2024",
+      "spend": 3161.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 319,
+      "clicks": 3,
+      "ctr": 0.9404388714733543,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "ad_id": "120247389828890528",
+      "ad_name": "2026-05-06 Mixed Feelings Cocina Harina",
+      "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+      "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+      "spend": 2996.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 123,
+      "clicks": 2,
+      "ctr": 1.6260162601626018,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "ad_id": "120247468348520528",
+      "ad_name": "2026-05-07 Call Your Friends Banca Eje Cafetero",
+      "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+      "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+      "spend": 2141.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 69,
+      "clicks": 0,
+      "ctr": 0.0,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "ad_id": "120247469041950528",
+      "ad_name": "2026-05-07 Subale a ese Temazo Sala Tornamesa",
+      "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+      "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+      "spend": 1846.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 67,
+      "clicks": 1,
+      "ctr": 1.4925373134328357,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "ad_id": "120224683822820528",
+      "ad_name": "Video Reel Camilo con camisetas",
+      "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+      "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+      "spend": 1530.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 45,
+      "clicks": 2,
+      "ctr": 4.444444444444445,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "ad_id": "120243646791410528",
+      "ad_name": "20260305 - Video Sesión de Fotos",
+      "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+      "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+      "spend": 1169.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 97,
+      "clicks": 0,
+      "ctr": 0.0,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "ad_id": "120242611291350528",
+      "ad_name": "20260212 2 Amigos Matiz y Otoya",
+      "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+      "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+      "spend": 1158.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 80,
+      "clicks": 1,
+      "ctr": 1.25,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "ad_id": "120247469457190528",
+      "ad_name": "2026-05-06 Pusieron Salsa Tienda Barrio - RTG",
+      "campaign_name": "RTG y LAL con Leo 24-01-2024",
+      "adset_name": "RTGT 24-01-2024",
+      "spend": 734.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 106,
+      "clicks": 5,
+      "ctr": 4.716981132075472,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "ad_id": "120242157336830528",
+      "ad_name": "20260202 Secuencia OLDTIMES Fotos Juliana",
+      "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+      "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+      "spend": 355.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 25,
+      "clicks": 1,
+      "ctr": 4.0,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "ad_id": "120247469194210528",
+      "ad_name": "2026-05-07 Subale a ese Temazo Sala Tornamesa - RTG",
+      "campaign_name": "RTG y LAL con Leo 24-01-2024",
+      "adset_name": "RTGT 24-01-2024",
+      "spend": 163.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 22,
+      "clicks": 0,
+      "ctr": 0.0,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "ad_id": "120247469454280528",
+      "ad_name": "2026-05-06 Pomodoro Mercado Fruta - RTG",
+      "campaign_name": "RTG y LAL con Leo 24-01-2024",
+      "adset_name": "RTGT 24-01-2024",
+      "spend": 102.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 11,
+      "clicks": 0,
+      "ctr": 0.0,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "ad_id": "120247469452720528",
+      "ad_name": "2026-05-06 Call Your Friends Banca Finca - RTG",
+      "campaign_name": "RTG y LAL con Leo 24-01-2024",
+      "adset_name": "RTGT 24-01-2024",
+      "spend": 53.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 14,
+      "clicks": 0,
+      "ctr": 0.0,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "ad_id": "120247469455580528",
+      "ad_name": "2026-05-06 Mixed Feelings Cocina Harina - RTG",
+      "campaign_name": "RTG y LAL con Leo 24-01-2024",
+      "adset_name": "RTGT 24-01-2024",
+      "spend": 53.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 13,
+      "clicks": 0,
+      "ctr": 0.0,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "ad_id": "120247469453430528",
+      "ad_name": "2026-05-06 Less Talk More Action Cafe Monsteras - RTG",
+      "campaign_name": "RTG y LAL con Leo 24-01-2024",
+      "adset_name": "RTGT 24-01-2024",
+      "spend": 39.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 7,
+      "clicks": 0,
+      "ctr": 0.0,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "ad_id": "120247469194970528",
+      "ad_name": "2026-05-07 Call Your Friends Banca Eje Cafetero - RTG",
+      "campaign_name": "RTG y LAL con Leo 24-01-2024",
+      "adset_name": "RTGT 24-01-2024",
+      "spend": 29.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 2,
+      "clicks": 0,
+      "ctr": 0.0,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "ad_id": "120243638333980528",
+      "ad_name": "20260305 Nacho Camiseta Silla",
+      "campaign_name": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+      "adset_name": "ASC con Leo 12/02/2025 (Sin catalogo) Conjunto de anuncios",
+      "spend": 13.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0.0,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "ad_id": "120243647462490528",
+      "ad_name": "Anuncio de Tráfico con la configuración recomendada",
+      "campaign_name": "Campaña de Tráfico 05/03/2026",
+      "adset_name": "Conjunto de anuncios de Tráfico con la configuración recomendada - Instagram - Copia",
+      "spend": 12.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 2,
+      "clicks": 0,
+      "ctr": 0.0,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "ad_id": "120243647529990528",
+      "ad_name": "Anuncio de Tráfico con la configuración recomendada",
+      "campaign_name": "Campaña de Tráfico 05/03/2026",
+      "adset_name": "Conjunto de anuncios de Tráfico (A audiencia de ThruPlay)",
+      "spend": 5.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 2,
+      "clicks": 1,
+      "ctr": 50.0,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "ad_id": "120215751404130528",
+      "ad_name": "Nuevo anuncio de Ventas",
+      "campaign_name": "RTG y LAL con Leo 24-01-2024",
+      "adset_name": "RTGT 24-01-2024",
+      "spend": 0.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "roas": 0,
+      "cpa": 0
+    }
+  ],
+  "campaigns_mtd": [
+    {
+      "campaign": "ASC con Leo 12/02/2025 (Sin catalogo) Campaña",
+      "spend": 321710.0,
+      "purchases": 2,
+      "purchase_value": 496000.0,
+      "impressions": 23631,
+      "clicks": 442,
+      "ads_count": 17,
+      "ctr": 1.8704244424696375,
+      "roas": 1.5417612135152778,
+      "cpa": 160855.0
+    },
+    {
+      "campaign": "RTG y LAL con Leo 24-01-2024",
+      "spend": 76960.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 9737,
+      "clicks": 136,
+      "ads_count": 13,
+      "ctr": 1.3967341070144808,
+      "roas": 0.0,
+      "cpa": 0
+    },
+    {
+      "campaign": "Campaña de Tráfico 05/03/2026",
+      "spend": 10135.0,
+      "purchases": 0,
+      "purchase_value": 0.0,
+      "impressions": 2292,
+      "clicks": 71,
+      "ads_count": 4,
+      "ctr": 3.0977312390924956,
+      "roas": 0.0,
+      "cpa": 0
+    }
+  ]
+}
